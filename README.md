@@ -1,8 +1,6 @@
-# EX-11-EMI-CALCULATOR
-
 ## AIM
 
-To write a program to prepare EMI calculator using function without return type and with arguments.
+To write a program to prepare EMI calculator using function without return type and without arguments.
 
 ## ALGORITHM
 
@@ -14,9 +12,11 @@ To write a program to prepare EMI calculator using function without return type 
 6.	Stop the program.
 
 ## PROGRAM
+![image](https://github.com/user-attachments/assets/53232510-a84a-4566-b29e-b6bdaff56ea3)
 
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f3463c0a-271f-45d4-be7d-946f5551d546)
 
 
 
@@ -24,14 +24,14 @@ To write a program to prepare EMI calculator using function without return type 
 
 ## RESULT
 
-Thus the program to prepare EMI calculator using function without return type with arguments has been executed successfully
+Thus the program to prepare EMI calculator using function without return type without arguments has been executed successfully
  
  
 
 
 # EX-12-FIBONACCI-SERIES
 ## AIM
-To write a C program to generate the Fibonacci series for the value 6.
+To write a C program to generate the Fibonacci series for the value 11.
 
 ## ALGORITHM
 1.	Start the program.
@@ -43,8 +43,10 @@ To write a C program to generate the Fibonacci series for the value 6.
 7.	Stop the program.
 
 ## PROGRAM
+![image](https://github.com/user-attachments/assets/f1308603-16aa-4fc3-9a56-d17293c9be0a)
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3ff40213-c2c9-47e7-8d42-422af28068a7)
 
 
 
@@ -54,25 +56,36 @@ To write a C program to generate the Fibonacci series for the value 6.
 
 
 ## RESULT
-Thus the program to generate the Fibonacci series for the value 6 has been executed successfully.
+Thus the program to generate the Fibonacci series for the value 11 has been executed successfully.
  
  
 
 
 # EX-13-ONE-DIMENSIONAL-ARRAY
 ## AIM
-To write a C program to read n elements as input and print the last element of the array.
-
+Create  a C program to read n elements as input and to print the second last element of the array (integer).
 ## ALGORITHM
-1.	Start the program.
-2.	Read a variable.
-3.	Read the array values n number of times.
-4.	Print the last element.
-5.	Stop the program.
+Start.
+
+Declare an integer array and variables n (number of elements) and i (for iteration).
+
+Read the value of n from the user.
+
+If n is less than 2, print an error message (since second last element doesn't exist).
+
+Else,
+
+Read n integers into the array.
+
+Access and print the element at index n - 2 (second last element).
+
+End.
 
 ## PROGRAM
+![image](https://github.com/user-attachments/assets/36d85ae0-0b33-4c61-a16b-09cf9bbb164d)
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c57bd3bf-cb16-4c34-aace-ad680a737223)
 
 
 
@@ -83,34 +96,51 @@ To write a C program to read n elements as input and print the last element of t
 
 
 ## RESULT
-Thus the program to read n elements as input and print the last element of the array has been executed successfully.
+Thus the programto read n elements as input and to print the second last element of the array (integer) has been executed successfully.
  
  
 
 
 # EX-14-POSITIVE-ARRAY-ELEMENTS
 ## AIM
-To write a C Program to count total number of positive elements in an array.
+Write a C Program to Print the Number of  Odd Numbers in an Array
 
 ## ALGORITHM
-1.	Start the program.
-2.	Read a variable.
-3.	Read the array values n number of times.
-4.	If the array value can be divided by 2 then increment count by 1.
-5.	Display result.
-6.	Stop the program.
+Start
+
+Declare an array and variables n (size), i (loop index), and count (to store number of odd numbers).
+
+Read the value of n (size of the array) from the user.
+
+Read n elements into the array.
+
+Initialize count = 0.
+
+Loop through each element of the array:
+
+If the element is odd (element % 2 != 0), increment count.
+
+Print the value of count.
+
+End
+
+
 
 ## PROGRAM
+![image](https://github.com/user-attachments/assets/54e7eb89-1465-4df7-8b2b-a24769581aba)
 
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b965d214-e4e5-4205-8ebf-ef4d983b5af8)
 
 
 
 
 
 ## RESULT
-Thus the program to count total number of positive elements in an array has been executed successfully.
+Thus the program to Print the Number of  Odd Numbers in an Array
+
+ has been executed successfully.
 
 
 
@@ -123,28 +153,35 @@ Thus the program to count total number of positive elements in an array has been
 # EX -15 - Replace All Even Elements With 'E' In One Dimensional Array
 
 ## Aim:
-To write a C program to replace all even elements with 'E' in one dimensional array
-
+Write a program in C to read n number of values in an array and display the last three elements of an array in reverse order
 ## Algorithm:
-1.	Input the array:
-  Read the size of the array.
-  Input the elements of the array.
-2.	Iterate through the array:
- 	For each element of the array, check if the element is even (i.e., if the element modulo 2 equals 0).
-3.	Replace even elements with 'E':
-     If an element is even, replace that element with the character 'E'.
-4.	Output the updated array:
- Print the updated array after replacements.
+Start
 
+Declare an array and variables: n (size of the array), i (loop counter).
+
+Read n from the user.
+
+If n < 3, print a message saying "Not enough elements to display last three."
+
+Else:
+
+Read n elements into the array.
+
+Print the elements at indices n-1, n-2, and n-3 in that order (reverse).
+
+End
 ## Program:
+![image](https://github.com/user-attachments/assets/4fdf46e4-b9ef-4026-9cbd-bc959aaae37e)
 
 ## Output:
- 
+![image](https://github.com/user-attachments/assets/4ecd9e00-b3c4-431b-a9f0-b6f030cd233e)
+
+
 
 
 ## Result:
 
-Thus, the program to replace all even elements with 'E' in one dimensional array was verified successfully.
+Thus, to read n number of values in an array and display the last three elements of an array in reverse order was verified successfully.
 
 
 
